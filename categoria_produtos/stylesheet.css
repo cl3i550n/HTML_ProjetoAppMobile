@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+    box-sizing: border-box;
+    margin: unset;
+    font-family: 'Varela', sans-serif;
+}
+
+/* ----- Inicio do Header ------- */
+/* Cuidado com nomes duplicados */
+
+#container{
+    display: flex;
+    height: 70px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(#03AEEB 60%, yellow);
+    top: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+#container .carretilha{
+    margin-top: 6px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#container img {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    justify-content: start;
+}
+
+#separador{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* ----- Fim do Header ------- */
+
+/* ----- Inicio dos produtos ------- */
+
+#containerP01{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+}
+
+#containerP01 .produtos{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 48%;
+    padding: 5px;
+    box-shadow: 2px 2px 5px black;
+    margin: 4px;
+}
+
+#containerP01 .valor{
+    color: red;
+    font-size: 17px;
+}
+
+#containerP01 .juros{
+    font-size: 12px;
+}
+
+#containerP01 img{
+    width: auto;
+    max-width: 100%;
+}
+
+
+
+/* ----- Fim dos produtos ------- */
+
+
+/* ----- Inicio do Footer (Não mexer) ------- */
+/* Cuidado com nomes duplicados */
+
+#containerFooter{
+    display: flex;
+    position: bottom;
+    background-color: #03AEEB;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: space-around;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+#containerFooter img{
+    margin-top: 6px;
+    height: 40px;
+}
+
+/* ----- Fim do Footer ------- */
+

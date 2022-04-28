@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <title>Footer e Header</title>
+</head>
+<!-- NUNCA ALTERAR O BACKUP -->
+
+<body>
+    <!-- Header definido, avisar se for mexer -->
+    <header>
+        <div id=container>
+            <a href="../detalhe_produto/detalhe_produto.html"><img src="./img/voltar.svg"></a>
+            <span class=carrinho>Meu Carrinho</span>
+        </div>
+    </header>
+    <div id="separador"></div>
+    <!-- Fim do Header -->
+
+    <div id="containerPRODUTO">
+        <div class="bloco">
+            <img src="./img/produto01.jpg">
+            <span class="titulo">CARRETILHA SHIMANO SLX XT 151 XG ESQUERDA <br>
+                <br>
+                <br>
+                <span class="de">R$200,00</span><br>
+                <span class="por">R$200,00</span><br>
+                QTD: 1
+            </span>
+        </div>
+        <div class="bloco">
+            <img src="./img/produto02.jpg">
+            <span class="titulo">CARRETILHA SHIMANO SLX XT 151 XG ESQUERDA <br>
+                <br>
+                <br>
+                <span class="de">R$200,00</span><br>
+                <span class="por">R$200,00</span><br>
+                QTD: 1
+            </span>
+        </div>
+    </div>
+
+    <div id="CEP">
+        <span>Digite seu CEP:</span>
+    </div>
+    <div id="inputebtnPADRAO">
+        <input class="entrada" type="text" placeholder="00000-00">
+        <button class="botao">CALCULAR</button>
+    </div>
+    <div id="formaEnvio">
+        <form>
+            <p>Escolha a forma de envio:</p>
+            <input type="radio" id="PAC" name="formEnvio" value="PAC">
+            <label for="PAC"><span class="pac">PAC: </span>R$20,00 | De 03 á 08 dias úteis</label><br>
+            <input type="radio" id="SEDEX" name="formEnvio" value="SEDEX">
+            <label for="SEDEX"><span class="sedex">SEDEX: </span>R$60,00 | De 02 á 04 dias úteis</label><br>
+    </div>
+    <div id="btnCOMPRAR">
+        <a href="../pag_pagamento/pagamento.html">
+            <button type="button">COMPRAR</button></a>
+    </div>
+    <!-- Footer definido, avisar se mexer -->
+    <div id="separador"></div>
+    <footer id=containerFooter>
+        <div id=btnHome>
+            <a href="../Pag_home/index.html"><img src="./img/home.svg"></a>
+            <!-- Colocar o href para imagem aqui -->
+        </div>
+        <div id=btnCategorias>
+            <a href="../menu_tayna/menu.html"><img src="./img/categoria.svg"></a>
+            <!-- Colocar o href para imagem aqui -->
+        </div>
+        <div id=btnCarrinho>
+            <a href="../carrinho/carrinho.html"><img src="./img/carrinho.svg"></a>
+            <!-- Colocar o href para imagem aqui -->
+        </div>
+        <div id=btnPerfil>
+            <a href="../pag_cliente/pagcliente.html"><img src="./img/login.svg"></a>
+            <!-- Colocar o href para imagem aqui -->
+        </div>
+    </footer>
+    <!-- Fim do Footer -->
+</body>
+
+</html>

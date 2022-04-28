@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+    box-sizing: border-box;
+    margin: unset;
+    font-family: 'Varela', sans-serif;
+}
+
+/* ----- Inicio do Header (Não mexer) ------- */
+/* Cuidado com nomes duplicados */
+
+#container{
+    display: flex;
+    height: 70px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(#03AEEB 60%, yellow);
+    /* ATENÇÃO -- Essa parte abaixo deixa fixo na tela
+    Só remover se quiser */
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+a:visited {
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container .editavel{
+    margin-top: 10px;
+    margin-left: 2px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#container img {
+margin-top: 5px;
+width: 60px;
+height: 60px;
+justify-content: start;
+margin-left: 20px;
+}
+
+
+#separador{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* ----- Fim do Header ------- */
+
+/* Inicio do corpo  */
+
+#foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;  
+}
+
+/* Inicio do primeito hr */
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Fim do primeiro hr */
+
+/* Inicio dos demais hrs */
+
+.outrashrs{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.icons{            /* imagem */
+    margin: 10px 30px;
+    display: flex;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+
+/* Fim dos demais hrs */
+
+/* Fim do corpo */
+
+
+
+/* ----- Inicio do Footer (Não mexer) ------- */
+/* Cuidado com nomes duplicados */
+
+#containerFooter{
+    display: flex;
+    position: bottom;
+    background-color: #03AEEB;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: space-around;
+    /* ATENÇÃO -- Essa parte abaixo deixa fixo na tela
+    Só remover se quiser */
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+#containerFooter img{
+    margin-top: 6px;
+    height: 40px;
+}
+
+/* ----- Fim do Footer ------- */
+

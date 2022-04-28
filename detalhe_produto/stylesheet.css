@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+    box-sizing: border-box;
+    margin: unset;
+    font-family: 'Varela', sans-serif;
+}
+
+/* ----- Inicio do Header ------- */
+/* Cuidado com nomes duplicados */
+
+#container{
+    display: flex;
+    height: 70px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(#03AEEB 60%, yellow);
+    top: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+#container .carretilha{
+    margin-top: 14px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#container img {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    justify-content: start;
+}
+
+#separador{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* ----- Fim do Header ------- */
+
+/* ----- Inicio Desc Produto ------- */
+/* ----- Inicio da Imagem ------- */
+#imagemProduto{
+    justify-content: center;
+    text-align: center;
+}
+
+#imagemProduto h3{
+    display: block;
+    width: 100%;
+    padding: 0 0 15px;
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#imagemProduto img{
+    width: 80%;
+}
+/* ----- Fim da Imagem ------- */
+/* ----- Inicio Valores e carrinho da Imagem ------- */
+#valorProduto .de{
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+#valorProduto .por{
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+
+#containerBotao{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#containerBotao .botao{
+    color: white;
+    border-style: solid, 0.1px;
+    background-color: #03AEEB;
+    border-color: #03AEEB;
+    border-radius: 6px;
+    outline: none;
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* ----- Fim Valores e carrinho da Imagem ------- */
+
+#opcoesPagamento{
+    text-align: center;
+}
+
+#opcoesPagamento img{
+    width: 90%;
+}
+
+#pagueATE{
+    text-align: center;
+    border-style: solid;
+    border-color: #e0e0e0;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+#pagueATE .titulo{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px;
+}
+
+#pagueATE .bloco{
+    margin: 0px;
+}
+
+#pagueATE .bloco span{
+    padding: 10px;
+}
+
+#descricao{
+    font-weight: bold;
+}
+
+/* ----- Fim Desc Produto ------- */
+
+/* ----- Inicio do Footer (Não mexer) ------- */
+/* Cuidado com nomes duplicados */
+
+#containerFooter{
+    display: flex;
+    position: bottom;
+    background-color: #03AEEB;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: space-around;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+#containerFooter img{
+    margin-top: 6px;
+    height: 40px;
+}
+
+/* ----- Fim do Footer ------- */
+

@@ -1,0 +1,16 @@
+div.header-fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+div.footer-fixo{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+div.separa-footer{
+    height: 50px;
+}

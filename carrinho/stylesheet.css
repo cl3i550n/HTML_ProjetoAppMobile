@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+    box-sizing: border-box;
+    margin: unset;
+    font-family: 'Varela', sans-serif;
+}
+
+/* ----- Inicio do Header (Não mexer) ------- */
+/* Cuidado com nomes duplicados */
+
+#container{
+    display: flex;
+    height: 70px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(#03AEEB 60%, yellow);
+    /* ATENÇÃO -- Essa parte abaixo deixa fixo na tela
+    Só remover se quiser */
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+#container .carrinho{
+    margin-top: 6px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#container img {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    justify-content: start;
+}
+
+#separador{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* ----- Fim do Header ------- */
+
+/* ----- Inicio do Produtos ------- */
+
+#containerPRODUTO{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#containerPRODUTO img{
+    display: flex;
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+}
+
+#containerPRODUTO .bloco{
+    display: flex;
+    text-align: initial;
+    box-shadow: 2px 2px 5px black;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+#containerPRODUTO span{
+    font-size: 16px;
+}
+
+#containerPRODUTO .de{
+    text-decoration: line-through;
+}
+
+#containerPRODUTO .por{
+    font-size: 15px;
+    font-style: bold;
+    color: red;
+}
+
+#containerPRODUTO input{
+    width: 40px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+/* ----- Fimn do Produtos ------- */
+
+/* ----- Inicio Botão e Input ------- */
+
+/* Remover o botão do lado, só remover o displayflex do #inputebtnPADRAO */
+#inputebtnPADRAO{
+    display: flex;
+    padding: 5px;
+}
+
+/*Meche no input*/
+#inputebtnPADRAO .entrada {
+    border-style: solid, 0.1px;
+    border-color: #03AEEB;
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+
+/* Meche no botão */
+#inputebtnPADRAO .botao{
+    color: white;
+    border-style: solid, 0.1px;
+    background-color: #03AEEB;
+    border-color: #03AEEB;
+    border-radius: 6px;
+    outline: none;
+}
+
+#CEP{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+#formaEnvio{
+    text-align: initial;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+span.pac{
+    word-spacing: 50px;
+}
+
+span.sedex{
+    word-spacing: 30px;
+}
+
+#formaEnvio span{
+    font-weight: bolder;
+}
+
+#btnCOMPRAR{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#btnCOMPRAR button{
+    color: white;
+    border-style: solid, 0.1px;
+    background-color: #07c400;
+    border-color: #07c400;
+    border-radius: 6px;
+    outline: none;
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ----- Fim Botão e Input ------- */
+
+/* ----- Inicio do Footer (Não mexer) ------- */
+/* Cuidado com nomes duplicados */
+
+#containerFooter{
+    display: flex;
+    position: bottom;
+    background-color: #03AEEB;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: space-around;
+    /* ATENÇÃO -- Essa parte abaixo deixa fixo na tela
+    Só remover se quiser */
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+#containerFooter img{
+    margin-top: 6px;
+    height: 40px;
+}
+
+/* ----- Fim do Footer ------- */
+

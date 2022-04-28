@@ -1,0 +1,10 @@
+
+div.footer-fixo{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+
+div.separa-footer{
+    height: 50px;
+}

@@ -1,0 +1,73 @@
+*{box-sizing: border-box;}
+
+h2.oferta {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+/* "Carrossel" de produtos */
+div.produtos-container {
+    width: 100vw;
+    display: flex;
+    margin-top: 15px;
+    overflow-x: scroll;
+}
+div.produto-detalhe {
+    min-width: 35vw;
+    /* height: 250px; */
+    margin: 0px 10px 0px 15px;
+}
+div.produto-descricao {
+    margin-top: 6px;
+    padding: 5px;
+    /* line-height: 22px; */
+    text-align: center;
+}
+
+span.nome-produto {
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+}
+span.descricao {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 6px;
+    color: rgb(22, 21, 21);
+}
+span.preco {
+    display: block;
+    font-size: 17px;
+    margin-top: 6px;
+    font-weight: bold;
+    color: #FD9301;
+}
+
+/* configuração da imagem dos produtos */
+.img-produto {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-produto img {
+    width: 26vw;
+}
+
+
+/* banner com anuncio */
+div.produto-banner img {
+    width: 100%;
+    min-height: 80px;
+    margin: 10px 0px;
+}
+
+/* distancia a ultima lista de produtos do rodapé */
+div.tam {
+    margin-bottom: 40px;
+}

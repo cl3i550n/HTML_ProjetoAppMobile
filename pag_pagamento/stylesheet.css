@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+    box-sizing: border-box;
+    margin: unset;
+    font-family: 'Varela', sans-serif;
+}
+
+/* ----- Inicio do Header (Não mexer) ------- */
+/* Cuidado com nomes duplicados */
+
+#container{
+    display: flex;
+    height: 70px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(#03AEEB 60%, yellow);
+    /* ATENÇÃO -- Essa parte abaixo deixa fixo na tela
+    Só remover se quiser */
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+#container .carretilha{
+    margin-top: 6px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#container img {
+margin-top: 5px;
+width: 40px;
+height: 40px;
+justify-content: start;
+}
+
+#separador{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* ----- Fim do Header ------- */
+
+span{
+    font-size: 23px;
+}
+
+.text-info{
+    margin-bottom: 20px;
+}
+
+/* ----- Inicio Botão e Input ------- */
+
+/* Remover o botão do lado, só remover o displayflex do #inputebtnPADRAO */
+
+#form-cadastro {
+    width: 100%;
+    margin: 10px auto 20px auto;
+}
+
+.container-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.container-inline .container-field {
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.container-inline {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container-field input {
+    height: 35px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+div#block-resumo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumo{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.valor-frete{
+    font-size: 17px;
+}
+
+.logradouro{
+    flex: 1;
+}
+
+.cep, .bairro{
+    flex: 2;
+}
+
+.nome{
+    flex: 3;
+}
+
+.date{
+    flex: 1;
+}
+
+.cpf{
+    flex: 3;
+}
+
+.cvv{
+    flex: 1;
+}
+
+/* Meche no input
+#block-geral input {
+    display: flex;
+    border-style: solid, 0.1px;
+    background-color: #e9e9e9;
+    border-color: #03AEEB;
+    border-radius: 6px;
+    outline: none;
+} */
+
+#inputebtnPADRAO{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#inputebtnPADRAO .botao{
+    color: white;
+    border-style: solid, 0.1px;
+    background-color: #07c400;
+    border-color: #07c400;
+    border-radius: 6px;
+    outline: none;
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ----- Fim Botão e Input ------- */
+
+/* ----- Inicio do Footer (Não mexer) ------- */
+/* Cuidado com nomes duplicados */
+
+#containerFooter{
+    display: flex;
+    position: bottom;
+    background-color: #03AEEB;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: space-around;
+    /* ATENÇÃO -- Essa parte abaixo deixa fixo na tela
+    Só remover se quiser */
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+#containerFooter img{
+    margin-top: 6px;
+    height: 40px;
+}
+
+/* ----- Fim do Footer ------- */
+

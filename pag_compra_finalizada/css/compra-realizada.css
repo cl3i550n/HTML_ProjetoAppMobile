@@ -1,0 +1,166 @@
+div.container-divs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+div.compra-realizada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 90%;
+    margin: 20px 0 5px 0;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgba(21, 201, 21, 0.7);
+}
+
+div.compra-realizada span {
+    font-size: 21px;
+    color: black;
+}
+
+
+/* detalhes compra */
+div.detalhes-pedido .topico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    height: 110px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px black;
+}
+
+div.topico-pedido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    height: 210px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px black;
+}
+
+div.topico-endereco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 150px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px black;
+
+}
+div.texte span.titulo{
+    color: black;
+    font-size: 15.5px;
+    font-weight: bold;
+    padding-right: 70px ;
+}
+div.texte span.titulo2{
+    color: black;
+    font-size: 15.5px;
+    font-weight: bold;
+    padding-right: 85px;
+}
+div.texte span.titulo1{
+    color: black;
+    font-size: 15.5px;
+    font-weight: bold;
+    margin-right: 20px ;
+}
+
+div.texte {
+    margin: 0 auto;
+}
+
+div.texte span{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+div.detalhes-pedido h2 {
+    font-size: 22px;
+    color: black;
+    margin: 20px 0 10px 0;
+}
+
+div.text span{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 33px;
+}
+div.text span.titulo{
+    font-weight: bolder;
+    font-size: medium;
+}
+div.text {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.entrega {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+div.entrega span {
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div.entrega span.titulo {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    /* line-height: 30px; */
+}
+div.entrega span.titulo1 {
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+}
+div.topico-pedido-produto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+div.topico-pedido-descricao span{
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+div.topico-pedido-descricao h3{
+    color:black;
+    margin: 10px;
+}
+div.topico-pedido-descricao span.ttt{
+    color:green;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+div.topico-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    height: 70px;
+    margin: 10px 0;
+    padding: 5px;
+    box-shadow: 2px 2px 5px black;
+}
